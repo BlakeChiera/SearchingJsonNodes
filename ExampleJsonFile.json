@@ -1,0 +1,40 @@
+{
+  "Nodes": [
+    {
+      "Node_id": 0,
+      "x_cord":0,
+      "y_cord":0,
+      "connected_nodes": [2,3]
+    },
+    {
+      "Node_id": 1,
+      "x_cord":200,
+      "y_cord":50,
+      "connected_nodes": [0,3,4]
+    },
+    {
+      "Node_id": 2,
+      "x_cord":100,
+      "y_cord":75,
+      "connected_nodes": [0,1,3,4]
+    },
+    {
+      "Node_id": 3,
+      "x_cord":0,
+      "y_cord":125,
+      "connected_nodes": [2,4,5]
+    },
+    {
+      "Node_id": 4,
+      "x_cord":400,
+      "y_cord":100,
+      "connected_nodes": [1,2,3,5]
+    },
+    {
+      "Node_id": 5,
+      "x_cord":200,
+      "y_cord":150,
+      "connected_nodes": [3,4]
+    }
+  ]
+}
